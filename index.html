@@ -2,13 +2,13 @@
 <html>
 
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Intuit Accounts Sign Up</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
-    <link rel="icon" type="image/x-icon" href="https://accounts.intuit.com/images/favicons/favicon-16x16.png"/>
+    <link rel="icon" type="image/x-icon" href="https://accounts.intuit.com/images/favicons/favicon-16x16.png" />
 </head>
 
 <body>
@@ -18,45 +18,65 @@
         <button><img src="./images/baseline_lock_white_18dp.png" alt=""> Sign In</button>
     </header>
     <section>
-        <div>
+        <div class="center">
             <h3>Logo</h3>
-            <div>
+            <div class="main">
                 <h2>One Account.</h2>
                 <h2>Everything Intuit.</h2>
-                <h6>Create an account for all of Intuit's products including Mint.</h6>
-                <a href="#">Learn more</a>
+                <h6>Create an account for all of Intuit's products including Mint. <a href="#">Learn more</a></h6>
+
 
                 <form action="" method="POST">
-                    <label for="Email ">Email Address</label>
-                    <input type="email" name="email" id="email">
+                    <!-- <label for="Email ">Email Address</label> -->
+                    <div class="eform">
+                        <label for="email">Email Address</label>
+                        <input type="email" name="email" id="email">
+                    </div>
 
-                    <label for="Phone">Phone (Recommended)</label>
-                    <input type="number" name="phone" id="phone">
+                    <div class="eform">
+                        Phone (Recommended)
+                        <input type="number" name="phone" id="phone">
+                        <small>Standard call, messaging or data rates may apply.</small>
+                    </div>
 
-                    <label for="Password">Password</label>
-                    <input type="password" name="password" id="password">
 
-                    <input type="submit" value="Create Account">
+                    <div class="eform">
+                        <label for="Password">Password</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+
+
+                    <div class="eform">
+                        <input type="submit" value="Create Account">
+                    </div>
+
+
+
                 </form>
+                <small>
+                    <p><i>By clicking Create Account, you agree to our
+                            <a href="#">License Agreement</a>
+                            and have read and acknowledge our <a href="#">Privacy Statement</a> .</i></p>
+                </small>
 
-                <p><i>By clicking Create Account, you agree to our
-                    <a href="#">License Agreement</a>
-                    and have read and acknowledge our <a href="#">Privacy Statement</a> .</i></p>
 
-                <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy </a> and <a href="#">Terms of Use</a> .</p>
+                <p id="main-footer"> <small>Invisible reCAPTCHA by Google <a href="#">Privacy Policy </a> and <a href="#">Terms
+                            of Use</a> .</small> </p>
             </div>
         </div>
 
     </section>
-    <footer>
+    <footer class="center">
         <a href="#">Legal</a>
         <a href="#">Privacy</a>
         <a href="#">Security</a>
 
-        <p>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are
-            registered trademarks of Intuit Inc.
+        <p><small> © 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are
+                registered trademarks of Intuit Inc.</small>
         </p>
-        <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.
+        <p> <small>
+                Terms and conditions, features, support, pricing, and service options subject to change without notice.
+            </small>
         </p>
     </footer>
 </body>

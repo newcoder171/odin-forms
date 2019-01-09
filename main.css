@@ -23,9 +23,53 @@ header {
   float: right;
 }
 
+.center {
+    margin: 0 auto;
+    width: 380px;
+    text-align: center;
+}
+
+.main {
+    background-color: #ffffff;
+    border: 1px solid #d1d1d1;
+    padding: 10px 10px 0 10px;
+    margin-bottom: 25px;
+}
+
 form{
   margin: 0 auto;
-  width: 400px;
+  width: 250px;
   padding: 1em;
-  border: 1px solid #000;
 }
+
+.eform {
+    margin-bottom: 15px;
+}
+
+input {
+    width: inherit;
+}
+
+label {
+    display: block;
+    margin: 5px;
+}
+
+#main-footer {
+    background-color: #eceef1;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-right: -10px;
+    margin-left: -10px !important;
+}
+
+footer {
+    width: 600px !important;
+}
+
+a {
+    text-decoration: none;
+    color: #3077dc;
+}
+
+
