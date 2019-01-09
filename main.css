@@ -1,4 +1,5 @@
 html {
+  /* setting the document typeface and weight, bgcolor*/
   display: block;
   font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 400;
@@ -7,29 +8,53 @@ html {
 }
 
 body {
-
+/**/
 }
 
 header {
+  /*aligning text elements to the right*/
     text-align: right;
 }
 
+button, .sub_button{
+  /*layout styles shared by the signin and create account button*/
+  background-color: #0077c5;
+  color: white;
+  border-radius: 4px;
+}
+
+button{
+  /**/
+  border: 1px solid #4c4c4c;
+  font-size: 10px;
+}
+
+.sub_button{
+  /*style for the create account botton*/
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 8px 16px 0 rgba(0,0,0,0.2);
+  padding: 12px 90px;
+}
+
 .old-user{
+  /**/
   float: right;
 
 }
 
 .signin{
+  /**/
   float: right;
 }
 
 .center {
+  /*centering the main elements and footer on the webpage*/
     margin: 0 auto;
     width: 380px;
     text-align: center;
 }
 
 .main {
+  /*setting bgcolor and border for the form and neighbouring elements */
     background-color: #ffffff;
     border: 1px solid #d1d1d1;
     padding: 10px 10px 0 10px;
@@ -37,25 +62,31 @@ header {
 }
 
 form{
+  /*setting the correct width for the form element*/
   margin: 0 auto;
   width: 250px;
   padding: 1em;
 }
 
+a {
+  /*styling all the links on display*/
+    text-decoration: none;
+    color: #3077dc;
+}
 .eform {
+  /*setting the all the individual element within the form*/
     margin-bottom: 15px;
 }
 
-input {
-    width: inherit;
-}
 
 label {
+  /*to set the margin for all the labels used*/
     display: block;
     margin: 5px;
 }
 
-#main-footer {
+#reCAPTCHA {
+  /*to distiguish the Google advisory from the rest of form*/
     background-color: #eceef1;
     padding: 10px;
     margin-bottom: 0px;
@@ -64,12 +95,6 @@ label {
 }
 
 footer {
+  /* to set a different width for the elements in the footer to overight 'center' style*/
     width: 600px !important;
 }
-
-a {
-    text-decoration: none;
-    color: #3077dc;
-}
-
-
