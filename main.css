@@ -1,4 +1,8 @@
 html {
+  display: block;
+  font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  background-color: #eceef1
 
 }
 
@@ -7,5 +11,21 @@ body {
 }
 
 header {
-    
+
+}
+
+.old-user{
+  float: right;
+
+}
+
+.signin{
+  float: right;
+}
+
+form{
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #000;
 }
