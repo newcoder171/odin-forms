@@ -63,10 +63,12 @@ button{
   cursor: pointer;
 }
 
-.sub_button{
+.sub_btn{
   /*style for the create account botton*/
   box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
   padding: 12px 100px;
+  height: 40px;
+  width:290px;
 }
 
 .center {
