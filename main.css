@@ -25,6 +25,7 @@ header {
 
 hr {
   visibility: hidden;
+  margin-bottom: 70px;
 }
 
 h3 {
@@ -36,7 +37,7 @@ p {
 }
 
 .esc-link{
-  float: right;
+  margin: -10px 7px 0 0;
 }
 
 #top-text {
