@@ -7,15 +7,17 @@
     <title>Intuit Accounts Sign Up</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="https://accounts.intuit.com/images/favicons/favicon-16x16.png" />
+    <script src="main.js"></script>
 </head>
 
 <body>
     <header>
-        <p>Already have an Intuit account?</p>
-        <a href="">I forgot my User ID or Password?</a>
-        <button><img src="./images/baseline_lock_white_18dp.png" alt=""> Sign In</button>
+      <div class="esc-link">
+        <p><small>Already have an Intuit account?<br/><a href="">I forgot my User ID or Password?</a></small></p>
+      </div>
+        <button><i class="material-icons" style="font-size: 12px;">lock</i> Sign In</button>
     </header>
     <section>
         <div class="center">
@@ -23,7 +25,7 @@
             <div class="main">
                 <h2>One Account.</h2>
                 <h2>Everything Intuit.</h2>
-                <h6>Create an account for all of Intuit's products including Mint. <a href="#">Learn more</a></h6>
+                <p>Create an account for all of Intuit's products including Mint. <a href="#">Learn more</a></p>
 
 
                 <form action="" method="POST">
@@ -39,15 +41,13 @@
                         <small style="float:left">Standard call, messaging or data rates may apply.</small>
                     </div>
 
-
                     <div class="eform">
                         <label for="Password">Password</label>
                         <input type="password" name="password" id="password">
                     </div>
 
-
                     <div class="eform">
-                        <input type="submit" value="Create Account" class="sub_button">
+                      <button class="sub_button"><i class="material-icons" style="font-size: 15px;">lock</i>  Create Account</button>
                     </div>
 
 
